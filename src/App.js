@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import Header from "./components/Header"
+import ListItem from "./components/ListItem"
 import ListHeader from "./components/ListHeader"
-
-import HeadItems from "./components/ListHeader"
 
 import './App.css';
 
@@ -16,7 +15,9 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h2>started Learning React!</h2>
         </div>
-        <ListHeader />
+         <ListHeader />
+        <ListItem/>    
+
       </div>
     );
   }
