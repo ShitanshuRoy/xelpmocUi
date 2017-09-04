@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import "./css/Listitem.css";
+import "./css/ListItem.css";
 
-export default class Listitem extends Component {
+export default class ListItem extends Component {
   render() {
-    return <div className="Listitem" />;
+    return <div className="ListItem" />;
   }
 }
