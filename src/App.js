@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import Header from "./components/Header"
+import ListHeader from "./components/ListHeader"
+
+import HeadItems from "./components/ListHeader"
+
 import './App.css';
 
 class App extends Component {
@@ -8,14 +12,11 @@ class App extends Component {
     return (
      
       <div className="App">
-         <Header/>
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
+          <h2>started Learning React!</h2>
         </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <ListHeader />
       </div>
     );
   }
